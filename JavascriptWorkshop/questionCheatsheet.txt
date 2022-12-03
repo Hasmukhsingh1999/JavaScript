@@ -1,0 +1,19 @@
+Ques 1. Compare three num
+Ques 2. leap year (fought a bug need a quick)
+Ques 3. Check vowels (try using switch quite a handy things)
+Ques 4. Wap to print any number table.
+Ques 5. Wap to print n numbers.
+Ques 6. Wap to print a num in next lines.
+    456 -> 4
+           5
+           6
+Ques 7. Wap to reverse a number.
+Ques 8. Wap to find minimum element.
+Ques 9. Wap to sort an array.
+Ques 10. Wap to reverse an array.
+Ques 11 . Wap to rotate left and right array element.
+    arr = [1,2,3,4,5];
+    opt - > [2,3,4,5,1]
+
+Ques 12. Wap to print string next line;
+Ques 13 . Wap to print string alpha which are capital print them.

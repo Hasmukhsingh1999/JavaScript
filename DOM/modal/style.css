@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#fs{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 51, 51, 0.747);
+}
+
+#modal{
+   
+    position: absolute;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%,0%);
+    width: 30%;
+    /* height: 25%; */
+    padding: 22px 22px;
+    margin: 14px;
+    background-color: aliceblue;
+    border-radius: 35px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+}
+#modal button{
+    margin: 10px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 20px;
+    background-color: royalblue;
+}
+
+#modal>p{
+    margin-top: 12px;
+
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#full-screen{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    top: -100%;
+    height: 100%;
+    background-color: brown;
+}
+#nav{
+    font-family: "Gilroy";
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(131, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 5vw;
+}
+
+#nav-part2>a{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    font-family: "Gilroy";
+    font-weight: 600;
+
+
+}
+
+#menu-bars{
+    width: 25px;
+    height: 15px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+
+
+}
+
+#menu-bars>.line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
